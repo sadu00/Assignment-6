@@ -72,7 +72,7 @@ export default function Library({ workouts }: { workouts: Workout[] }) {
                   />
                 </div>
 
-                <div className="p-4">
+                <div className="p-5">
                   <div className="mb-3 flex flex-wrap gap-2">
                     {workout.muscleGroups.map((group) => (
                       <span
