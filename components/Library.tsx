@@ -22,7 +22,7 @@ export default function Library({ workouts }: { workouts: Workout[] }) {
   );
 
   return (
-    <section id="library" className="px-4 pb-2 pt-16 sm:px-6 lg:px-8">
+    <section id="library" className="px-4 pb-20 pt-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-[1200px]">
         <header className="mb-8 flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
           <div>
