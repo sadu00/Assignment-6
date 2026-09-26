@@ -1,50 +1,53 @@
 # FitLog — Workout Library
 
-FitLog is a responsive workout-library and daily-training planner built with Next.js. It lets users browse exercises, inspect workout details, build a five-lift daily plan, save workouts, and track completed lifts.
+FitLog is a modern and responsive workout library web application designed to help users explore workouts, view detailed exercise information, create a daily workout plan, save favorite workouts, and track completed exercises. It provides a clean and user-friendly interface for organizing and managing workout routines.
 
-## Technologies
+## Technologies Used
 
-- Next.js 15 App Router
-- React 19 + TypeScript
+- Next.js 15
+- React 19
+- TypeScript
 - Tailwind CSS
 - Lucide React
-- React Context API
-- Browser localStorage
-- FitLog REST API with a local fallback dataset
+- LocalStorage
+- REST API with fallback workout data
 
 ## Key Features
 
-1. **Responsive workout library** — exercise cards adapt to mobile, tablet, and desktop layouts.
-2. **Workout detail pages** — equipment, difficulty, sets, reps, duration, calories, rating, and instructions are shown for each lift.
-3. **Today's Plan** — add up to five exercises and view live exercise, minute, and calorie totals.
-4. **Saved workouts** — keep exercises for later from the detail page and access them from My Plan.
-5. **Workout actions** — mark planned exercises as done, remove items, and receive toast feedback.
-6. **Sorting** — sort the library and My Plan lists by duration, calories, or rating.
-7. **Persistent state** — plan, saved items, and completed workouts survive browser reloads through localStorage.
-8. **404 handling and loading states** — invalid routes and asynchronous workout loading have dedicated UI states.
+### 1. Workout Library
 
-## API
+Users can browse a curated collection of workouts from different muscle groups. Each workout card displays important information such as muscle group, equipment, duration, calories burned, and rating.
 
-Primary endpoint:
+### 2. Workout Sorting
 
-`https://api.abcz.workers.dev/api/fitlog`
+Users can sort workouts based on different criteria, including:
 
-Alternative endpoint:
+- Duration
+- Calories burned
+- Rating
 
-`https://api.api-store.workers.dev/api/fitlog`
+This makes it easier to find workouts according to their needs.
 
-If the API cannot be reached, FitLog uses the included workout dataset so the deployed UI remains usable.
+### 3. Detailed Workout Information
 
-## Run locally
+Users can open any workout to view its complete details, including workout description, difficulty level, sets, repetitions, and step-by-step instructions.
 
-```bash
-npm install
-npm run dev
-```
+### 4. Today's Workout Plan
 
-Create a production build with:
+Users can add workouts to their daily plan and organize their workout session. The application allows a maximum of 5 lifts in the plan and provides an easy way to manage the selected workouts.
 
-```bash
-npm run build
-npm start
-```
+### 5. Save and Track Workouts
+
+Users can save workouts for later and mark planned workouts as completed. The application uses browser LocalStorage to preserve the user's plan, saved workouts, and completion status even after refreshing the page.
+
+## Project Highlights
+
+- Responsive design for different screen sizes
+- Modern dark-themed fitness interface
+- Interactive workout cards
+- Easy workout planning and tracking
+- Persistent data using LocalStorage
+
+---
+
+**FitLog — Train with intent. Log every set.**
