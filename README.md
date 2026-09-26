@@ -1,114 +1,125 @@
 # 🏋️ FitLog — Workout Library
 
-> **Train with intent. Log every set.**
+<p align="center">
+  <strong>Train with intent. Log every set.</strong>
+</p>
 
-FitLog is a modern and responsive workout library web application designed to help users explore exercises, view detailed workout information, create a daily workout plan, save workouts, and track completed exercises.
+FitLog is a modern, responsive workout library and workout planning web application. It allows users to explore different exercises, view detailed workout information, create a personalized daily workout plan, save workouts for later, and track completed workouts.
 
-The project provides a clean, dark-themed fitness interface that makes discovering and organizing workouts simple and convenient.
+The application is designed with a clean and modern dark-themed interface to provide a simple and engaging workout management experience.
 
 ---
 
-## ✨ Features
+## 🚀 Technologies Used
 
-### 🏋️ 1. Workout Library
+- **Next.js 15** — Used as the main React framework and application structure.
+- **React 19** — Used to build reusable and interactive UI components.
+- **TypeScript** — Used for type-safe and maintainable development.
+- **Tailwind CSS** — Used for responsive styling and modern UI design.
+- **Lucide React** — Used for icons throughout the application.
+- **LocalStorage** — Used to persist the user's workout plan, saved workouts, and completed workout status.
+- **REST API / Fallback Data** — Used for retrieving and displaying workout information.
 
-Explore a curated collection of workouts covering different major muscle groups.
+---
 
-Each workout provides useful information such as:
+## ✨ Key Features
 
-- Muscle groups
+### 1. 🏋️ Workout Library
+
+FitLog provides a curated workout library containing exercises for different major muscle groups.
+
+Each workout card displays important information such as:
+
+- Workout name
+- Target muscle groups
 - Equipment
 - Duration
 - Calories burned
 - Rating
 - Workout image
 
+Users can easily browse the available workouts from the main library.
+
 ---
 
-### 🔄 2. Workout Sorting
+### 2. 🔄 Workout Sorting
 
-Users can easily sort workouts according to different criteria.
+The workout library includes a sorting system that allows users to organize workouts based on different criteria.
 
-Available sorting options include:
+Users can sort workouts by:
 
 - **Duration**
-- **Calories**
+- **Calories burned**
 - **Rating**
 
-This helps users quickly find workouts based on their preferred criteria.
+This makes it easier to find suitable workouts quickly.
 
 ---
 
-### 📋 3. Detailed Workout Information
+### 3. 📖 Detailed Workout Information
 
-Users can click on any workout to view its complete details.
+Users can select any workout from the library to view its detailed information.
 
-The workout details page includes:
+The workout details page provides:
 
 - Workout description
-- Difficulty level
+- Target muscle groups
 - Equipment
+- Difficulty level
 - Sets and repetitions
 - Step-by-step instructions
-- Target muscle groups
+
+This gives users a better understanding of how each exercise should be performed.
 
 ---
 
-### 📅 4. Today's Workout Plan
+### 4. 📅 Today's Workout Plan
 
-Users can create their own daily workout plan by adding exercises from the workout library.
+FitLog allows users to create and manage a personalized daily workout plan.
 
-The application allows users to:
+Users can:
 
 - Add workouts to Today's Plan
-- View planned workouts
+- View their planned workouts
 - Remove workouts from the plan
 - Manage up to **5 lifts** in the daily plan
 
+This feature helps users organize their workout session in one place.
+
 ---
 
-### ⭐ 5. Save & Track Workouts
+### 5. ⭐ Save & Track Workouts
 
-Users can save workouts for later and keep track of their workout progress.
+Users can save workouts that they want to access later and track their workout progress.
 
-They can:
+The application allows users to:
 
 - Save workouts
 - Remove saved workouts
 - Mark planned workouts as completed
 - Keep their workout data after refreshing the browser
 
-The application uses **LocalStorage** to persist the user's plan, saved workouts, and completion status.
+The application uses **LocalStorage** to preserve the user's plan, saved workouts, and completion status.
 
 ---
 
-## 🛠️ Technologies Used
+## 🎨 User Interface
 
-| Technology | Purpose |
-|---|---|
-| **Next.js 15** | React framework and application structure |
-| **React 19** | Building interactive user interfaces |
-| **TypeScript** | Type-safe development |
-| **Tailwind CSS** | Styling and responsive design |
-| **Lucide React** | Icons and UI elements |
-| **LocalStorage** | Persistent browser-side workout data |
-| **REST API / Fallback Data** | Loading workout information |
+FitLog uses a modern fitness-focused interface with:
 
----
-
-## 🎨 Design Highlights
-
-- Modern dark-themed interface
+- Dark-themed design
 - Responsive layout
 - Clean workout cards
 - Interactive navigation
 - Smooth hover effects
-- Fitness-focused visual design
-- Mobile and desktop friendly
+- Clear typography
+- Responsive desktop and mobile layouts
+
+The interface is designed to keep the workout information easy to understand and navigate.
 
 ---
 
-## 📂 Main Project Structure
+## 📂 Project Structure
 
 ```text
 FitLog/
