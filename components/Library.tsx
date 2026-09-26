@@ -64,7 +64,7 @@ export default function Library({ workouts }: { workouts: Workout[] }) {
           {visibleWorkouts.map((workout) => (
             <Link key={workout.id} href={`/workout/${workout.id}`} className="group block">
               <article className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950 transition duration-300 hover:-translate-y-1 hover:border-zinc-600">
-                <div className="relative h-[200px] overflow-hidden bg-zinc-900">
+                <div className="relative h-[250px] overflow-hidden bg-zinc-900">
                   <img
                     src={workout.image}
                     alt={workout.name}
